@@ -46,9 +46,32 @@ A class to contain a list of songs, with some convienance methods.
 
 - When clicking on a playlist, you'll push a new ViewController onto the stack.  This View Controller will subclass `UIViewControlle`r  (Not `UITableViewController`), but it will contain a Table View.  Make sure you set this View Controller to conform to the `UITableViewDelegate` and `UITableViewDataSource` Protocols.  
 
+2. Create an **objective-C** class to hold all of the `AVPlayer` stuff and then use a bridging header to access it from Swift. Here is the method in Objective-C
+
+```
+- (void)setupAVAudioPlayWithFileName:(NSString *)fileName
+{
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
+                                         pathForResource:fileName
+                                         ofType:@"mp3"]];
+    NSError *error;
+    self.audioPlayer = [[AVAudioPlayer alloc]
+                    initWithContentsOfURL:url
+                    error:&error];
+    if (error)
+    {
+        NSLog(@"Error in audioPlayer: %@",
+              [error localizedDescription]);
+    } else {
+        [self.audioPlayer prepareToPlay];
+    }
+}
+```
+
 The Table View will display the list of songs in the playlist.  All of the other functionality from the Jukebox should still exist: 
 
 - Tapping a cell should play the song in that cell 
+
 ### Hints
 
 When adding a tableview to your viewcontroller, don't forget to create an outlet from your tableview to your viewcontroller and connect the table view's delegate and data sources.  
