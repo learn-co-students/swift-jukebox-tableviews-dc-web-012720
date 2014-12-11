@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D82662E21A37C4CF002CE72B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82662E11A37C4CF002CE72B /* AppDelegate.swift */; };
+		D82662E71A37C4CF002CE72B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82662E51A37C4CF002CE72B /* Main.storyboard */; };
+		D82662E91A37C4CF002CE72B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82662E81A37C4CF002CE72B /* Images.xcassets */; };
+		D82662EC1A37C4CF002CE72B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D82662EA1A37C4CF002CE72B /* LaunchScreen.xib */; };
+		D82663021A37C7E4002CE72B /* PlaylistsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82663011A37C7E4002CE72B /* PlaylistsTableViewController.swift */; };
+		D8D3B4021A389E38006E8B3B /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D3B4011A389E38006E8B3B /* Playlist.swift */; };
+		D8D3B4041A389E56006E8B3B /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D3B4031A389E56006E8B3B /* Song.swift */; };
+		D8D3B40B1A38AE28006E8B3B /* bailando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8D3B4051A38AE28006E8B3B /* bailando.mp3 */; };
+		D8D3B40C1A38AE28006E8B3B /* gangsta_bleeding_love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8D3B4061A38AE28006E8B3B /* gangsta_bleeding_love.mp3 */; };
+		D8D3B40D1A38AE28006E8B3B /* higher_love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8D3B4071A38AE28006E8B3B /* higher_love.mp3 */; };
+		D8D3B40E1A38AE28006E8B3B /* hold_on_be_strong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8D3B4081A38AE28006E8B3B /* hold_on_be_strong.mp3 */; };
+		D8D3B40F1A38AE28006E8B3B /* mo_money_mo_problems.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8D3B4091A38AE28006E8B3B /* mo_money_mo_problems.mp3 */; };
+		D8D3B4101A38AE28006E8B3B /* old_thing_back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8D3B40A1A38AE28006E8B3B /* old_thing_back.mp3 */; };
+		D8D3B4161A39ED15006E8B3B /* SongPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D3B4151A39ED15006E8B3B /* SongPlayer.m */; };
+		D8D3B4181A39F27C006E8B3B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D3B4171A39F27C006E8B3B /* AVFoundation.framework */; };
+		D8D3B41A1A3A129C006E8B3B /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D3B4191A3A129C006E8B3B /* PlaylistViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D82662F21A37C4D0002CE72B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82662D41A37C4CF002CE72B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82662DB1A37C4CF002CE72B;
+			remoteInfo = "swift-jukebox-tableviews";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D82662DC1A37C4CF002CE72B /* swift-jukebox-tableviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-jukebox-tableviews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82662E01A37C4CF002CE72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82662E11A37C4CF002CE72B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D82662E61A37C4CF002CE72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D82662E81A37C4CF002CE72B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D82662EB1A37C4CF002CE72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D82662F11A37C4D0002CE72B /* swift-jukebox-tableviewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-jukebox-tableviewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82662F61A37C4D0002CE72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82663011A37C7E4002CE72B /* PlaylistsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistsTableViewController.swift; sourceTree = "<group>"; };
+		D8D3B4011A389E38006E8B3B /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		D8D3B4031A389E56006E8B3B /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		D8D3B4051A38AE28006E8B3B /* bailando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bailando.mp3; sourceTree = "<group>"; };
+		D8D3B4061A38AE28006E8B3B /* gangsta_bleeding_love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gangsta_bleeding_love.mp3; sourceTree = "<group>"; };
+		D8D3B4071A38AE28006E8B3B /* higher_love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = higher_love.mp3; sourceTree = "<group>"; };
+		D8D3B4081A38AE28006E8B3B /* hold_on_be_strong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hold_on_be_strong.mp3; sourceTree = "<group>"; };
+		D8D3B4091A38AE28006E8B3B /* mo_money_mo_problems.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mo_money_mo_problems.mp3; sourceTree = "<group>"; };
+		D8D3B40A1A38AE28006E8B3B /* old_thing_back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = old_thing_back.mp3; sourceTree = "<group>"; };
+		D8D3B4131A39ED14006E8B3B /* swift-jukebox-tableviews-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-jukebox-tableviews-Bridging-Header.h"; sourceTree = "<group>"; };
+		D8D3B4141A39ED15006E8B3B /* SongPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongPlayer.h; sourceTree = "<group>"; };
+		D8D3B4151A39ED15006E8B3B /* SongPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongPlayer.m; sourceTree = "<group>"; };
+		D8D3B4171A39F27C006E8B3B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D8D3B4191A3A129C006E8B3B /* PlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D82662D91A37C4CF002CE72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D3B4181A39F27C006E8B3B /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82662EE1A37C4D0002CE72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D82662D31A37C4CF002CE72B = {
+			isa = PBXGroup;
+			children = (
+				D8D3B4171A39F27C006E8B3B /* AVFoundation.framework */,
+				D82662DE1A37C4CF002CE72B /* swift-jukebox-tableviews */,
+				D82662F41A37C4D0002CE72B /* swift-jukebox-tableviewsTests */,
+				D82662DD1A37C4CF002CE72B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D82662DD1A37C4CF002CE72B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D82662DC1A37C4CF002CE72B /* swift-jukebox-tableviews.app */,
+				D82662F11A37C4D0002CE72B /* swift-jukebox-tableviewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D82662DE1A37C4CF002CE72B /* swift-jukebox-tableviews */ = {
+			isa = PBXGroup;
+			children = (
+				D82662E11A37C4CF002CE72B /* AppDelegate.swift */,
+				D82662E51A37C4CF002CE72B /* Main.storyboard */,
+				D8D3B4191A3A129C006E8B3B /* PlaylistViewController.swift */,
+				D8D3B4141A39ED15006E8B3B /* SongPlayer.h */,
+				D8D3B4151A39ED15006E8B3B /* SongPlayer.m */,
+				D8D3B4011A389E38006E8B3B /* Playlist.swift */,
+				D8D3B4031A389E56006E8B3B /* Song.swift */,
+				D82663011A37C7E4002CE72B /* PlaylistsTableViewController.swift */,
+				D82662E81A37C4CF002CE72B /* Images.xcassets */,
+				D82662EA1A37C4CF002CE72B /* LaunchScreen.xib */,
+				D8D3B4051A38AE28006E8B3B /* bailando.mp3 */,
+				D8D3B4061A38AE28006E8B3B /* gangsta_bleeding_love.mp3 */,
+				D8D3B4071A38AE28006E8B3B /* higher_love.mp3 */,
+				D8D3B4081A38AE28006E8B3B /* hold_on_be_strong.mp3 */,
+				D8D3B4091A38AE28006E8B3B /* mo_money_mo_problems.mp3 */,
+				D8D3B40A1A38AE28006E8B3B /* old_thing_back.mp3 */,
+				D82662DF1A37C4CF002CE72B /* Supporting Files */,
+				D8D3B4131A39ED14006E8B3B /* swift-jukebox-tableviews-Bridging-Header.h */,
+			);
+			path = "swift-jukebox-tableviews";
+			sourceTree = "<group>";
+		};
+		D82662DF1A37C4CF002CE72B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D82662E01A37C4CF002CE72B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D82662F41A37C4D0002CE72B /* swift-jukebox-tableviewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D82662F51A37C4D0002CE72B /* Supporting Files */,
+			);
+			path = "swift-jukebox-tableviewsTests";
+			sourceTree = "<group>";
+		};
+		D82662F51A37C4D0002CE72B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D82662F61A37C4D0002CE72B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D82662DB1A37C4CF002CE72B /* swift-jukebox-tableviews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82662FB1A37C4D0002CE72B /* Build configuration list for PBXNativeTarget "swift-jukebox-tableviews" */;
+			buildPhases = (
+				D82662D81A37C4CF002CE72B /* Sources */,
+				D82662D91A37C4CF002CE72B /* Frameworks */,
+				D82662DA1A37C4CF002CE72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-jukebox-tableviews";
+			productName = "swift-jukebox-tableviews";
+			productReference = D82662DC1A37C4CF002CE72B /* swift-jukebox-tableviews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D82662F01A37C4D0002CE72B /* swift-jukebox-tableviewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82662FE1A37C4D0002CE72B /* Build configuration list for PBXNativeTarget "swift-jukebox-tableviewsTests" */;
+			buildPhases = (
+				D82662ED1A37C4D0002CE72B /* Sources */,
+				D82662EE1A37C4D0002CE72B /* Frameworks */,
+				D82662EF1A37C4D0002CE72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D82662F31A37C4D0002CE72B /* PBXTargetDependency */,
+			);
+			name = "swift-jukebox-tableviewsTests";
+			productName = "swift-jukebox-tableviewsTests";
+			productReference = D82662F11A37C4D0002CE72B /* swift-jukebox-tableviewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D82662D41A37C4CF002CE72B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Flatiron School";
+				TargetAttributes = {
+					D82662DB1A37C4CF002CE72B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D82662F01A37C4D0002CE72B = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D82662DB1A37C4CF002CE72B;
+					};
+				};
+			};
+			buildConfigurationList = D82662D71A37C4CF002CE72B /* Build configuration list for PBXProject "swift-jukebox-tableviews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D82662D31A37C4CF002CE72B;
+			productRefGroup = D82662DD1A37C4CF002CE72B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D82662DB1A37C4CF002CE72B /* swift-jukebox-tableviews */,
+				D82662F01A37C4D0002CE72B /* swift-jukebox-tableviewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D82662DA1A37C4CF002CE72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D3B40C1A38AE28006E8B3B /* gangsta_bleeding_love.mp3 in Resources */,
+				D8D3B4101A38AE28006E8B3B /* old_thing_back.mp3 in Resources */,
+				D8D3B40B1A38AE28006E8B3B /* bailando.mp3 in Resources */,
+				D82662E71A37C4CF002CE72B /* Main.storyboard in Resources */,
+				D8D3B40E1A38AE28006E8B3B /* hold_on_be_strong.mp3 in Resources */,
+				D82662EC1A37C4CF002CE72B /* LaunchScreen.xib in Resources */,
+				D82662E91A37C4CF002CE72B /* Images.xcassets in Resources */,
+				D8D3B40D1A38AE28006E8B3B /* higher_love.mp3 in Resources */,
+				D8D3B40F1A38AE28006E8B3B /* mo_money_mo_problems.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82662EF1A37C4D0002CE72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D82662D81A37C4CF002CE72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82662E21A37C4CF002CE72B /* AppDelegate.swift in Sources */,
+				D82663021A37C7E4002CE72B /* PlaylistsTableViewController.swift in Sources */,
+				D8D3B41A1A3A129C006E8B3B /* PlaylistViewController.swift in Sources */,
+				D8D3B4021A389E38006E8B3B /* Playlist.swift in Sources */,
+				D8D3B4041A389E56006E8B3B /* Song.swift in Sources */,
+				D8D3B4161A39ED15006E8B3B /* SongPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82662ED1A37C4D0002CE72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D82662F31A37C4D0002CE72B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D82662DB1A37C4CF002CE72B /* swift-jukebox-tableviews */;
+			targetProxy = D82662F21A37C4D0002CE72B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D82662E51A37C4CF002CE72B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82662E61A37C4CF002CE72B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D82662EA1A37C4CF002CE72B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82662EB1A37C4CF002CE72B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D82662F91A37C4D0002CE72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D82662FA1A37C4D0002CE72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D82662FC1A37C4D0002CE72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "swift-jukebox-tableviews/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift-jukebox-tableviews/swift-jukebox-tableviews-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D82662FD1A37C4D0002CE72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "swift-jukebox-tableviews/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift-jukebox-tableviews/swift-jukebox-tableviews-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D82662FF1A37C4D0002CE72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "swift-jukebox-tableviewsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-jukebox-tableviews.app/swift-jukebox-tableviews";
+			};
+			name = Debug;
+		};
+		D82663001A37C4D0002CE72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "swift-jukebox-tableviewsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-jukebox-tableviews.app/swift-jukebox-tableviews";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D82662D71A37C4CF002CE72B /* Build configuration list for PBXProject "swift-jukebox-tableviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82662F91A37C4D0002CE72B /* Debug */,
+				D82662FA1A37C4D0002CE72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82662FB1A37C4D0002CE72B /* Build configuration list for PBXNativeTarget "swift-jukebox-tableviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82662FC1A37C4D0002CE72B /* Debug */,
+				D82662FD1A37C4D0002CE72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82662FE1A37C4D0002CE72B /* Build configuration list for PBXNativeTarget "swift-jukebox-tableviewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82662FF1A37C4D0002CE72B /* Debug */,
+				D82663001A37C4D0002CE72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D82662D41A37C4CF002CE72B /* Project object */;
+}
