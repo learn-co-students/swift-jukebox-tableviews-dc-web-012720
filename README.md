@@ -1,6 +1,6 @@
 ---
-  tags: tutorial, intermediate, Table-Views
-  languages: objc
+  tags: intermediate, Table-Views
+  languages: swift
 ---
 
 Jukebox-TableViews
