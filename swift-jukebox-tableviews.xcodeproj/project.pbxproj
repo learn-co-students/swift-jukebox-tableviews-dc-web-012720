@@ -11,18 +11,13 @@
 		D82662E71A37C4CF002CE72B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82662E51A37C4CF002CE72B /* Main.storyboard */; };
 		D82662E91A37C4CF002CE72B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82662E81A37C4CF002CE72B /* Images.xcassets */; };
 		D82662EC1A37C4CF002CE72B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D82662EA1A37C4CF002CE72B /* LaunchScreen.xib */; };
-		D82663021A37C7E4002CE72B /* PlaylistsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82663011A37C7E4002CE72B /* PlaylistsTableViewController.swift */; };
-		D8D3B4021A389E38006E8B3B /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D3B4011A389E38006E8B3B /* Playlist.swift */; };
-		D8D3B4041A389E56006E8B3B /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D3B4031A389E56006E8B3B /* Song.swift */; };
 		D8D3B40B1A38AE28006E8B3B /* bailando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8D3B4051A38AE28006E8B3B /* bailando.mp3 */; };
 		D8D3B40C1A38AE28006E8B3B /* gangsta_bleeding_love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8D3B4061A38AE28006E8B3B /* gangsta_bleeding_love.mp3 */; };
 		D8D3B40D1A38AE28006E8B3B /* higher_love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8D3B4071A38AE28006E8B3B /* higher_love.mp3 */; };
 		D8D3B40E1A38AE28006E8B3B /* hold_on_be_strong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8D3B4081A38AE28006E8B3B /* hold_on_be_strong.mp3 */; };
 		D8D3B40F1A38AE28006E8B3B /* mo_money_mo_problems.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8D3B4091A38AE28006E8B3B /* mo_money_mo_problems.mp3 */; };
 		D8D3B4101A38AE28006E8B3B /* old_thing_back.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D8D3B40A1A38AE28006E8B3B /* old_thing_back.mp3 */; };
-		D8D3B4161A39ED15006E8B3B /* SongPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D3B4151A39ED15006E8B3B /* SongPlayer.m */; };
 		D8D3B4181A39F27C006E8B3B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D3B4171A39F27C006E8B3B /* AVFoundation.framework */; };
-		D8D3B41A1A3A129C006E8B3B /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D3B4191A3A129C006E8B3B /* PlaylistViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,20 +39,13 @@
 		D82662EB1A37C4CF002CE72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D82662F11A37C4D0002CE72B /* swift-jukebox-tableviewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-jukebox-tableviewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82662F61A37C4D0002CE72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D82663011A37C7E4002CE72B /* PlaylistsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistsTableViewController.swift; sourceTree = "<group>"; };
-		D8D3B4011A389E38006E8B3B /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
-		D8D3B4031A389E56006E8B3B /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		D8D3B4051A38AE28006E8B3B /* bailando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bailando.mp3; sourceTree = "<group>"; };
 		D8D3B4061A38AE28006E8B3B /* gangsta_bleeding_love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gangsta_bleeding_love.mp3; sourceTree = "<group>"; };
 		D8D3B4071A38AE28006E8B3B /* higher_love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = higher_love.mp3; sourceTree = "<group>"; };
 		D8D3B4081A38AE28006E8B3B /* hold_on_be_strong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hold_on_be_strong.mp3; sourceTree = "<group>"; };
 		D8D3B4091A38AE28006E8B3B /* mo_money_mo_problems.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mo_money_mo_problems.mp3; sourceTree = "<group>"; };
 		D8D3B40A1A38AE28006E8B3B /* old_thing_back.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = old_thing_back.mp3; sourceTree = "<group>"; };
-		D8D3B4131A39ED14006E8B3B /* swift-jukebox-tableviews-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-jukebox-tableviews-Bridging-Header.h"; sourceTree = "<group>"; };
-		D8D3B4141A39ED15006E8B3B /* SongPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongPlayer.h; sourceTree = "<group>"; };
-		D8D3B4151A39ED15006E8B3B /* SongPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongPlayer.m; sourceTree = "<group>"; };
 		D8D3B4171A39F27C006E8B3B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		D8D3B4191A3A129C006E8B3B /* PlaylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +91,6 @@
 			children = (
 				D82662E11A37C4CF002CE72B /* AppDelegate.swift */,
 				D82662E51A37C4CF002CE72B /* Main.storyboard */,
-				D8D3B4191A3A129C006E8B3B /* PlaylistViewController.swift */,
-				D8D3B4141A39ED15006E8B3B /* SongPlayer.h */,
-				D8D3B4151A39ED15006E8B3B /* SongPlayer.m */,
-				D8D3B4011A389E38006E8B3B /* Playlist.swift */,
-				D8D3B4031A389E56006E8B3B /* Song.swift */,
-				D82663011A37C7E4002CE72B /* PlaylistsTableViewController.swift */,
 				D82662E81A37C4CF002CE72B /* Images.xcassets */,
 				D82662EA1A37C4CF002CE72B /* LaunchScreen.xib */,
 				D8D3B4051A38AE28006E8B3B /* bailando.mp3 */,
@@ -118,7 +100,6 @@
 				D8D3B4091A38AE28006E8B3B /* mo_money_mo_problems.mp3 */,
 				D8D3B40A1A38AE28006E8B3B /* old_thing_back.mp3 */,
 				D82662DF1A37C4CF002CE72B /* Supporting Files */,
-				D8D3B4131A39ED14006E8B3B /* swift-jukebox-tableviews-Bridging-Header.h */,
 			);
 			path = "swift-jukebox-tableviews";
 			sourceTree = "<group>";
@@ -254,11 +235,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D82662E21A37C4CF002CE72B /* AppDelegate.swift in Sources */,
-				D82663021A37C7E4002CE72B /* PlaylistsTableViewController.swift in Sources */,
-				D8D3B41A1A3A129C006E8B3B /* PlaylistViewController.swift in Sources */,
-				D8D3B4021A389E38006E8B3B /* Playlist.swift in Sources */,
-				D8D3B4041A389E56006E8B3B /* Song.swift in Sources */,
-				D8D3B4161A39ED15006E8B3B /* SongPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +360,6 @@
 				INFOPLIST_FILE = "swift-jukebox-tableviews/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "swift-jukebox-tableviews/swift-jukebox-tableviews-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -397,7 +372,6 @@
 				INFOPLIST_FILE = "swift-jukebox-tableviews/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "swift-jukebox-tableviews/swift-jukebox-tableviews-Bridging-Header.h";
 			};
 			name = Release;
 		};
