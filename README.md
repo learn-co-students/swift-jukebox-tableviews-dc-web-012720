@@ -1,7 +1,4 @@
----
-  tags: intermediate, Table-Views
-  languages: swift
----
+
 
 Jukebox-TableViews
 =========
