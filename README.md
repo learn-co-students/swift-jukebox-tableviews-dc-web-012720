@@ -80,3 +80,5 @@ When adding a tableview to your viewcontroller, don't forget to create an outlet
 
 
 
+
+<a href='https://learn.co/lessons/swift-jukebox-tableviews' data-visibility='hidden'>View this lesson on Learn.co</a>
